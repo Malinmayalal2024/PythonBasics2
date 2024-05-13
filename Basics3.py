@@ -6,6 +6,7 @@ print(x,y,z)
 print(type(x))
 print(type(y))
 print(type(z))
+#Numeric Datatypes
 a=float(x)
 print(a)
 print(type(a))
