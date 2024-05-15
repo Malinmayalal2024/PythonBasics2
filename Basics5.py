@@ -20,7 +20,7 @@ print(y[-1])                                        #Last Word
 print(y[-5:-2])                                     #From -5 to -2
 print(y.upper())                                    #Make String full Caps
 print(y.lower())                                    #Make ""    lower
-print(y.strip())                                    #Make 
+print(y.strip())                                   
 print(y.replace("P","M"))
 
 y=" Python,is,a,Programming,Language "
