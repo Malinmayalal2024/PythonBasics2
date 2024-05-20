@@ -23,9 +23,9 @@ data1["Location"]="Edapally"                                                    
 print(data1)
 data1.pop("Location")                                                            # To remove a key and value
 print(data1)
-data1.popitem()                                                 # To remove last key and value
+data1.popitem()                                                                  # To remove last key and value
 print(data1)
-    #del data1["Age"]                                           # Same as pop method
+    #del data1["Age"]                                                            # Same as pop method
     #print(data1)
     #data1.clear()                                              # Clear Method
     #del data1
