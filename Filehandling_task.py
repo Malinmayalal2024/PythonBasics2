@@ -9,8 +9,8 @@ x.close()
 y=open("sampletask.txt","a")
 print(y.write("its famous for its greenery"))
 y.close()
-#z=open("To_remove_file.txt","x")
-#os.remove("To_remove_file.txt")
+os.remove("sampletask.txt")
+
 
 
 
