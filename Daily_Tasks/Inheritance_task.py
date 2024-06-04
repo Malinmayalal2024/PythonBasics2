@@ -1,11 +1,11 @@
 # Inheritance Task
-class animal:
-    def __init__(self,type,breed) -> None:
+class animal:                                                       #Parent class
+    def __init__(self,type,breed) -> None:                  
         self.type=type
         self.breed=breed
     def animal_name(self):
         print(self.type,self.breed)
-class cat(animal):
+class cat(animal):                                                  #child class
     pass
 y=cat("A","Persian")
 y.animal_name()
